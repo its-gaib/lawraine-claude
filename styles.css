@@ -261,6 +261,15 @@ a:hover { color: var(--claret); }
   align-items: baseline;
   padding: 0.4rem 0;
   border-bottom: 1px dashed var(--line);
+  min-width: 0;
+}
+.card-row .card-value a {
+  word-break: break-all;
+  border-bottom: 1px solid transparent;
+}
+.card-row .card-value a:hover {
+  color: var(--claret);
+  border-bottom-color: var(--claret);
 }
 .card-row:last-child { border-bottom: 0; }
 .card-label {
