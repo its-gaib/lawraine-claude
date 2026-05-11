@@ -20,7 +20,7 @@ window.I18N = {
     hero_cta_secondary: "Rechtsgebiete ansehen",
     hero_card_address: "Adresse",
     hero_card_phone: "Telefon",
-    hero_card_languages: "Sprachen",
+    hero_card_email: "E-Mail",
 
     about_title: "Über die Kanzlei",
     about_p1: "Im Berner Lorrainequartier vereinigen Thomas Wenger und Sonja Comte ihre Erfahrung zu einer Kanzlei, die seit über drei Jahrzehnten für persönliche Begleitung, Sorgfalt und Diskretion steht.",
@@ -56,7 +56,6 @@ window.I18N = {
     sc_role: "Rechtsanwältin, MLaw",
     bio_admission: "Anwaltspatent",
     bio_study: "Studium",
-    bio_languages: "Sprachen",
     tw_bio: "Gründungspartner der Kanzlei seit 1991. Frühere Tätigkeit als Gerichtsberichterstatter (Berner Zeitung) und Assistent am Lehrstuhl von Prof. Dr. Jörg Paul Müller an der Universität Bern. Geschäftsführer der Kirchlichen Anlaufstelle Zwangsmassnahmen Kanton Bern (KAZ). Mitglied der Demokratischen Jurist:innen Bern.",
     sc_bio: "Frühere Tätigkeit in der Rechtsberatungsstelle für Asylsuchende der Caritas Schweiz, Praktika am Jugendgericht Bern und in einer Berner Anwaltskanzlei, mandatierte Anwältin bei AsyLex, von 2021 bis 2023 in der Kanzlei AVA-Law. Mitglied der Demokratischen Jurist:innen Bern (djb) sowie Vorstandsmitglied des Vereins frabina.",
 
@@ -100,7 +99,7 @@ window.I18N = {
     hero_cta_secondary: "Voir les domaines",
     hero_card_address: "Adresse",
     hero_card_phone: "Téléphone",
-    hero_card_languages: "Langues",
+    hero_card_email: "Courriel",
 
     about_title: "L'étude",
     about_p1: "Au quartier Lorraine de Berne, Thomas Wenger et Sonja Comte réunissent leur expérience dans une étude qui défend depuis plus de trois décennies une pratique faite d'attention, de rigueur et de discrétion.",
@@ -136,7 +135,6 @@ window.I18N = {
     sc_role: "Avocate, MLaw",
     bio_admission: "Brevet d'avocat",
     bio_study: "Études",
-    bio_languages: "Langues",
     tw_bio: "Associé fondateur de l'étude depuis 1991. Ancien chroniqueur judiciaire (Berner Zeitung) et assistant à la chaire du Prof. Jörg Paul Müller à l'Université de Berne. Directeur du centre ecclésial de contact pour les mesures de contrainte du canton de Berne (KAZ). Membre des Juristes démocrates de Berne.",
     sc_bio: "A travaillé auparavant au service de conseil juridique pour requérants d'asile de Caritas Suisse, stages au Tribunal des mineurs de Berne et dans une étude bernoise, avocate mandatée pour AsyLex, puis associée de l'étude AVA-Law de 2021 à 2023. Membre des Juristes démocrates de Berne (djb) et membre du comité de l'association frabina.",
 
@@ -180,7 +178,7 @@ window.I18N = {
     hero_cta_secondary: "View practice areas",
     hero_card_address: "Address",
     hero_card_phone: "Phone",
-    hero_card_languages: "Languages",
+    hero_card_email: "E-mail",
 
     about_title: "About the firm",
     about_p1: "In Bern's Lorraine district, Thomas Wenger and Sonja Comte bring together their experience in a firm that has stood for personal attention, care, and discretion for more than three decades.",
@@ -216,7 +214,6 @@ window.I18N = {
     sc_role: "Attorney, MLaw",
     bio_admission: "Bar admission",
     bio_study: "Education",
-    bio_languages: "Languages",
     tw_bio: "Founding partner of the firm since 1991. Previously court reporter for the Berner Zeitung and research assistant to Prof. Dr. Jörg Paul Müller at the University of Bern. Executive director of the Church Contact Point for Coercive Measures, Canton of Bern (KAZ). Member of the Democratic Lawyers of Bern.",
     sc_bio: "Previously with the legal advice centre for asylum seekers at Caritas Switzerland, internships at the Bern Juvenile Court and at a Bern law firm, mandated attorney for AsyLex, and with AVA-Law from 2021 to 2023. Member of the Democratic Lawyers of Bern (djb) and board member of the frabina association.",
 
@@ -260,7 +257,7 @@ window.I18N = {
     hero_cta_secondary: "Vedere i settori",
     hero_card_address: "Indirizzo",
     hero_card_phone: "Telefono",
-    hero_card_languages: "Lingue",
+    hero_card_email: "E-mail",
 
     about_title: "Lo studio",
     about_p1: "Nel quartiere Lorraine di Berna, Thomas Wenger e Sonja Comte uniscono la propria esperienza in uno studio che da oltre trent'anni si distingue per attenzione personale, cura e discrezione.",
@@ -296,7 +293,6 @@ window.I18N = {
     sc_role: "Avvocata, MLaw",
     bio_admission: "Patente di avvocato",
     bio_study: "Studi",
-    bio_languages: "Lingue",
     tw_bio: "Socio fondatore dello studio dal 1991. In passato cronista giudiziario per la Berner Zeitung e assistente alla cattedra del Prof. Dr. Jörg Paul Müller all'Università di Berna. Direttore del centro ecclesiale di contatto per le misure coercitive del Canton Berna (KAZ). Membro dei Giuristi democratici di Berna.",
     sc_bio: "In precedenza presso il centro di consulenza giuridica per richiedenti l'asilo di Caritas Svizzera, stage presso il Tribunale dei minorenni di Berna e in uno studio legale bernese, avvocata mandataria per AsyLex e, dal 2021 al 2023, presso lo studio AVA-Law. Membro dei Giuristi democratici di Berna (djb) e membro del comitato dell'associazione frabina.",
 

@@ -457,36 +457,32 @@ a:hover { color: var(--claret); }
   border: 1px solid var(--line);
   padding: var(--space-4);
   display: grid;
-  grid-template-columns: 120px 1fr;
+  grid-template-columns: 160px 1fr;
   gap: var(--space-3);
   border-radius: var(--radius);
   transition: border-color .25s ease;
 }
 .bio:hover { border-color: var(--ink); }
 .bio-portrait {
-  width: 120px;
-  height: 150px;
-  background: linear-gradient(160deg, var(--ink) 0%, var(--ink-soft) 100%);
+  width: 160px;
+  height: 200px;
+  margin: 0;
   border-radius: 2px;
-  display: grid;
-  place-items: center;
-  color: var(--paper);
-  position: relative;
   overflow: hidden;
+  position: relative;
+  background: var(--paper-warm);
 }
-.bio-portrait::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(ellipse at top right, rgba(184, 150, 90, 0.18), transparent 60%);
+.bio-portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: grayscale(100%) contrast(1.02);
+  transition: filter .4s ease, transform .6s cubic-bezier(.16,.84,.3,1);
 }
-.bio-initials {
-  font-family: var(--display);
-  font-size: 2.4rem;
-  font-style: italic;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  z-index: 1;
+.bio:hover .bio-portrait img {
+  filter: grayscale(0%) contrast(1);
+  transform: scale(1.03);
 }
 .bio-body h3 {
   font-family: var(--display);
@@ -504,8 +500,8 @@ a:hover { color: var(--claret); }
 }
 .bio-meta {
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  gap: var(--space-2);
+  grid-template-columns: repeat(2, auto);
+  gap: var(--space-3);
   margin: 0 0 var(--space-2);
   padding: var(--space-2) 0;
   border-top: 1px solid var(--line);
@@ -704,8 +700,7 @@ a:hover { color: var(--claret); }
   .menu-toggle { display: flex; }
   .header-inner { height: 64px; }
   .bio { grid-template-columns: 1fr; }
-  .bio-portrait { width: 80px; height: 100px; }
-  .bio-initials { font-size: 1.6rem; }
+  .bio-portrait { width: 140px; height: 175px; }
   .bio-meta { grid-template-columns: 1fr 1fr; }
 
   /* mobile nav drawer */

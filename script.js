@@ -5,11 +5,12 @@
   const SUPPORTED = ["de", "fr", "en", "it"];
   const DEFAULT_LANG = "de";
 
+  // German is always the default on first visit.
+  // Other languages are only used if the visitor explicitly selected one before.
   function detectLang() {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (stored && SUPPORTED.includes(stored)) return stored;
-    const nav = (navigator.language || "de").slice(0, 2).toLowerCase();
-    return SUPPORTED.includes(nav) ? nav : DEFAULT_LANG;
+    return DEFAULT_LANG;
   }
 
   function applyLang(lang) {
