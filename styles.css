@@ -80,29 +80,13 @@ a:hover { color: var(--claret); }
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.65rem;
-  letter-spacing: 0.01em;
+  height: 100%;
 }
-.brand-mark {
-  width: 32px; height: 32px;
-  background: var(--ink);
-  color: var(--paper);
-  font-family: var(--display);
-  font-style: italic;
-  font-weight: 500;
-  font-size: 22px;
-  display: grid; place-items: center;
-  border-radius: 2px;
-}
-.brand-name {
-  font-family: var(--display);
-  font-size: 1.15rem;
-  font-weight: 400;
-  letter-spacing: 0.005em;
-}
-.brand-name em {
-  font-style: italic;
-  font-weight: 500;
+.brand-logo {
+  height: 52px;
+  width: auto;
+  display: block;
+  /* The original logo is solid black on transparent — keep it true to brand. */
 }
 
 .primary-nav {
@@ -699,6 +683,7 @@ a:hover { color: var(--claret); }
   .lang-switch { margin-left: auto; }
   .menu-toggle { display: flex; }
   .header-inner { height: 64px; }
+  .brand-logo { height: 42px; }
   .bio { grid-template-columns: 1fr; }
   .bio-portrait { width: 140px; height: 175px; }
   .bio-meta { grid-template-columns: 1fr 1fr; }
